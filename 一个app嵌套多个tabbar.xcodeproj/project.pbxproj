@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1B267301E4C053E00D8403D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B2672F1E4C053E00D8403D /* main.m */; };
+		C1B267331E4C053E00D8403D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B267321E4C053E00D8403D /* AppDelegate.m */; };
+		C1B267361E4C053E00D8403D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B267351E4C053E00D8403D /* ViewController.m */; };
+		C1B267391E4C053E00D8403D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B267371E4C053E00D8403D /* Main.storyboard */; };
+		C1B2673B1E4C053E00D8403D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B2673A1E4C053E00D8403D /* Assets.xcassets */; };
+		C1B2673E1E4C053E00D8403D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B2673C1E4C053E00D8403D /* LaunchScreen.storyboard */; };
+		C1B267491E4C053E00D8403D /* __app____tabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B267481E4C053E00D8403D /* __app____tabbarTests.m */; };
+		C1B267541E4C053E00D8403D /* __app____tabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B267531E4C053E00D8403D /* __app____tabbarUITests.m */; };
+		C1B267641E4C05A900D8403D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B267631E4C05A900D8403D /* FirstViewController.m */; };
+		C1B267671E4C05B400D8403D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B267661E4C05B400D8403D /* SecondViewController.m */; };
+		C1B2676A1E4C05C400D8403D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B267691E4C05C400D8403D /* ThirdViewController.m */; };
+		C1B2676D1E4C05E600D8403D /* MainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B2676C1E4C05E600D8403D /* MainNavViewController.m */; };
+		C1B267701E4C060A00D8403D /* YPFristTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B2676F1E4C060A00D8403D /* YPFristTabBarController.m */; };
+		C1B267741E4C064000D8403D /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B267731E4C064000D8403D /* FourViewController.m */; };
+		C1B267771E4C064C00D8403D /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B267761E4C064C00D8403D /* FiveViewController.m */; };
+		C1B2677A1E4C06A500D8403D /* YPSecondTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B267791E4C06A500D8403D /* YPSecondTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1B267451E4C053E00D8403D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B267231E4C053E00D8403D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B2672A1E4C053E00D8403D;
+			remoteInfo = "一个app嵌套多个tabbar";
+		};
+		C1B267501E4C053E00D8403D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B267231E4C053E00D8403D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B2672A1E4C053E00D8403D;
+			remoteInfo = "一个app嵌套多个tabbar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1B2672B1E4C053E00D8403D /* 一个app嵌套多个tabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "一个app嵌套多个tabbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B2672F1E4C053E00D8403D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1B267311E4C053E00D8403D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1B267321E4C053E00D8403D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1B267341E4C053E00D8403D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1B267351E4C053E00D8403D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1B267381E4C053E00D8403D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1B2673A1E4C053E00D8403D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1B2673D1E4C053E00D8403D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1B2673F1E4C053E00D8403D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B267441E4C053E00D8403D /* 一个app嵌套多个tabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "一个app嵌套多个tabbarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B267481E4C053E00D8403D /* __app____tabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__app____tabbarTests.m"; sourceTree = "<group>"; };
+		C1B2674A1E4C053E00D8403D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B2674F1E4C053E00D8403D /* 一个app嵌套多个tabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "一个app嵌套多个tabbarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B267531E4C053E00D8403D /* __app____tabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__app____tabbarUITests.m"; sourceTree = "<group>"; };
+		C1B267551E4C053E00D8403D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B267621E4C05A900D8403D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C1B267631E4C05A900D8403D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C1B267651E4C05B400D8403D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C1B267661E4C05B400D8403D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C1B267681E4C05C400D8403D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C1B267691E4C05C400D8403D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C1B2676B1E4C05E600D8403D /* MainNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavViewController.h; sourceTree = "<group>"; };
+		C1B2676C1E4C05E600D8403D /* MainNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavViewController.m; sourceTree = "<group>"; };
+		C1B2676E1E4C060A00D8403D /* YPFristTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPFristTabBarController.h; sourceTree = "<group>"; };
+		C1B2676F1E4C060A00D8403D /* YPFristTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPFristTabBarController.m; sourceTree = "<group>"; };
+		C1B267721E4C064000D8403D /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		C1B267731E4C064000D8403D /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		C1B267751E4C064C00D8403D /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		C1B267761E4C064C00D8403D /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		C1B267781E4C06A500D8403D /* YPSecondTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPSecondTabBarController.h; sourceTree = "<group>"; };
+		C1B267791E4C06A500D8403D /* YPSecondTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPSecondTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B267281E4C053E00D8403D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B267411E4C053E00D8403D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B2674C1E4C053E00D8403D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1B267221E4C053E00D8403D = {
+			isa = PBXGroup;
+			children = (
+				C1B2672D1E4C053E00D8403D /* 一个app嵌套多个tabbar */,
+				C1B267471E4C053E00D8403D /* 一个app嵌套多个tabbarTests */,
+				C1B267521E4C053E00D8403D /* 一个app嵌套多个tabbarUITests */,
+				C1B2672C1E4C053E00D8403D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B2672C1E4C053E00D8403D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B2672B1E4C053E00D8403D /* 一个app嵌套多个tabbar.app */,
+				C1B267441E4C053E00D8403D /* 一个app嵌套多个tabbarTests.xctest */,
+				C1B2674F1E4C053E00D8403D /* 一个app嵌套多个tabbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B2672D1E4C053E00D8403D /* 一个app嵌套多个tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C1B267711E4C061A00D8403D /* 第二层 */,
+				C1B267611E4C058700D8403D /* 第一层 */,
+				C1B267311E4C053E00D8403D /* AppDelegate.h */,
+				C1B267321E4C053E00D8403D /* AppDelegate.m */,
+				C1B267341E4C053E00D8403D /* ViewController.h */,
+				C1B267351E4C053E00D8403D /* ViewController.m */,
+				C1B2676B1E4C05E600D8403D /* MainNavViewController.h */,
+				C1B2676C1E4C05E600D8403D /* MainNavViewController.m */,
+				C1B2676E1E4C060A00D8403D /* YPFristTabBarController.h */,
+				C1B2676F1E4C060A00D8403D /* YPFristTabBarController.m */,
+				C1B267781E4C06A500D8403D /* YPSecondTabBarController.h */,
+				C1B267791E4C06A500D8403D /* YPSecondTabBarController.m */,
+				C1B267371E4C053E00D8403D /* Main.storyboard */,
+				C1B2673A1E4C053E00D8403D /* Assets.xcassets */,
+				C1B2673C1E4C053E00D8403D /* LaunchScreen.storyboard */,
+				C1B2673F1E4C053E00D8403D /* Info.plist */,
+				C1B2672E1E4C053E00D8403D /* Supporting Files */,
+			);
+			path = "一个app嵌套多个tabbar";
+			sourceTree = "<group>";
+		};
+		C1B2672E1E4C053E00D8403D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B2672F1E4C053E00D8403D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1B267471E4C053E00D8403D /* 一个app嵌套多个tabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B267481E4C053E00D8403D /* __app____tabbarTests.m */,
+				C1B2674A1E4C053E00D8403D /* Info.plist */,
+			);
+			path = "一个app嵌套多个tabbarTests";
+			sourceTree = "<group>";
+		};
+		C1B267521E4C053E00D8403D /* 一个app嵌套多个tabbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B267531E4C053E00D8403D /* __app____tabbarUITests.m */,
+				C1B267551E4C053E00D8403D /* Info.plist */,
+			);
+			path = "一个app嵌套多个tabbarUITests";
+			sourceTree = "<group>";
+		};
+		C1B267611E4C058700D8403D /* 第一层 */ = {
+			isa = PBXGroup;
+			children = (
+				C1B267621E4C05A900D8403D /* FirstViewController.h */,
+				C1B267631E4C05A900D8403D /* FirstViewController.m */,
+				C1B267651E4C05B400D8403D /* SecondViewController.h */,
+				C1B267661E4C05B400D8403D /* SecondViewController.m */,
+				C1B267681E4C05C400D8403D /* ThirdViewController.h */,
+				C1B267691E4C05C400D8403D /* ThirdViewController.m */,
+			);
+			name = "第一层";
+			sourceTree = "<group>";
+		};
+		C1B267711E4C061A00D8403D /* 第二层 */ = {
+			isa = PBXGroup;
+			children = (
+				C1B267721E4C064000D8403D /* FourViewController.h */,
+				C1B267731E4C064000D8403D /* FourViewController.m */,
+				C1B267751E4C064C00D8403D /* FiveViewController.h */,
+				C1B267761E4C064C00D8403D /* FiveViewController.m */,
+			);
+			name = "第二层";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B2672A1E4C053E00D8403D /* 一个app嵌套多个tabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B267581E4C053E00D8403D /* Build configuration list for PBXNativeTarget "一个app嵌套多个tabbar" */;
+			buildPhases = (
+				C1B267271E4C053E00D8403D /* Sources */,
+				C1B267281E4C053E00D8403D /* Frameworks */,
+				C1B267291E4C053E00D8403D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "一个app嵌套多个tabbar";
+			productName = "一个app嵌套多个tabbar";
+			productReference = C1B2672B1E4C053E00D8403D /* 一个app嵌套多个tabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1B267431E4C053E00D8403D /* 一个app嵌套多个tabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B2675B1E4C053E00D8403D /* Build configuration list for PBXNativeTarget "一个app嵌套多个tabbarTests" */;
+			buildPhases = (
+				C1B267401E4C053E00D8403D /* Sources */,
+				C1B267411E4C053E00D8403D /* Frameworks */,
+				C1B267421E4C053E00D8403D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B267461E4C053E00D8403D /* PBXTargetDependency */,
+			);
+			name = "一个app嵌套多个tabbarTests";
+			productName = "一个app嵌套多个tabbarTests";
+			productReference = C1B267441E4C053E00D8403D /* 一个app嵌套多个tabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1B2674E1E4C053E00D8403D /* 一个app嵌套多个tabbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B2675E1E4C053E00D8403D /* Build configuration list for PBXNativeTarget "一个app嵌套多个tabbarUITests" */;
+			buildPhases = (
+				C1B2674B1E4C053E00D8403D /* Sources */,
+				C1B2674C1E4C053E00D8403D /* Frameworks */,
+				C1B2674D1E4C053E00D8403D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B267511E4C053E00D8403D /* PBXTargetDependency */,
+			);
+			name = "一个app嵌套多个tabbarUITests";
+			productName = "一个app嵌套多个tabbarUITests";
+			productReference = C1B2674F1E4C053E00D8403D /* 一个app嵌套多个tabbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B267231E4C053E00D8403D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "赖永鹏";
+				TargetAttributes = {
+					C1B2672A1E4C053E00D8403D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DN43523GZM;
+						ProvisioningStyle = Automatic;
+					};
+					C1B267431E4C053E00D8403D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DN43523GZM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1B2672A1E4C053E00D8403D;
+					};
+					C1B2674E1E4C053E00D8403D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DN43523GZM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1B2672A1E4C053E00D8403D;
+					};
+				};
+			};
+			buildConfigurationList = C1B267261E4C053E00D8403D /* Build configuration list for PBXProject "一个app嵌套多个tabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B267221E4C053E00D8403D;
+			productRefGroup = C1B2672C1E4C053E00D8403D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B2672A1E4C053E00D8403D /* 一个app嵌套多个tabbar */,
+				C1B267431E4C053E00D8403D /* 一个app嵌套多个tabbarTests */,
+				C1B2674E1E4C053E00D8403D /* 一个app嵌套多个tabbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B267291E4C053E00D8403D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B2673E1E4C053E00D8403D /* LaunchScreen.storyboard in Resources */,
+				C1B2673B1E4C053E00D8403D /* Assets.xcassets in Resources */,
+				C1B267391E4C053E00D8403D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B267421E4C053E00D8403D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B2674D1E4C053E00D8403D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B267271E4C053E00D8403D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B267671E4C05B400D8403D /* SecondViewController.m in Sources */,
+				C1B267361E4C053E00D8403D /* ViewController.m in Sources */,
+				C1B2676A1E4C05C400D8403D /* ThirdViewController.m in Sources */,
+				C1B267741E4C064000D8403D /* FourViewController.m in Sources */,
+				C1B267771E4C064C00D8403D /* FiveViewController.m in Sources */,
+				C1B267331E4C053E00D8403D /* AppDelegate.m in Sources */,
+				C1B2676D1E4C05E600D8403D /* MainNavViewController.m in Sources */,
+				C1B267701E4C060A00D8403D /* YPFristTabBarController.m in Sources */,
+				C1B267301E4C053E00D8403D /* main.m in Sources */,
+				C1B267641E4C05A900D8403D /* FirstViewController.m in Sources */,
+				C1B2677A1E4C06A500D8403D /* YPSecondTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B267401E4C053E00D8403D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B267491E4C053E00D8403D /* __app____tabbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B2674B1E4C053E00D8403D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B267541E4C053E00D8403D /* __app____tabbarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1B267461E4C053E00D8403D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B2672A1E4C053E00D8403D /* 一个app嵌套多个tabbar */;
+			targetProxy = C1B267451E4C053E00D8403D /* PBXContainerItemProxy */;
+		};
+		C1B267511E4C053E00D8403D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B2672A1E4C053E00D8403D /* 一个app嵌套多个tabbar */;
+			targetProxy = C1B267501E4C053E00D8403D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1B267371E4C053E00D8403D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B267381E4C053E00D8403D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1B2673C1E4C053E00D8403D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B2673D1E4C053E00D8403D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1B267561E4C053E00D8403D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1B267571E4C053E00D8403D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B267591E4C053E00D8403D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = "一个app嵌套多个tabbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.--app----tabbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1B2675A1E4C053E00D8403D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = "一个app嵌套多个tabbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.--app----tabbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1B2675C1E4C053E00D8403D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = "一个app嵌套多个tabbarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.--app----tabbarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/一个app嵌套多个tabbar.app/一个app嵌套多个tabbar";
+			};
+			name = Debug;
+		};
+		C1B2675D1E4C053E00D8403D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = "一个app嵌套多个tabbarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.--app----tabbarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/一个app嵌套多个tabbar.app/一个app嵌套多个tabbar";
+			};
+			name = Release;
+		};
+		C1B2675F1E4C053E00D8403D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = "一个app嵌套多个tabbarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.--app----tabbarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "一个app嵌套多个tabbar";
+			};
+			name = Debug;
+		};
+		C1B267601E4C053E00D8403D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = "一个app嵌套多个tabbarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.--app----tabbarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "一个app嵌套多个tabbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B267261E4C053E00D8403D /* Build configuration list for PBXProject "一个app嵌套多个tabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B267561E4C053E00D8403D /* Debug */,
+				C1B267571E4C053E00D8403D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B267581E4C053E00D8403D /* Build configuration list for PBXNativeTarget "一个app嵌套多个tabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B267591E4C053E00D8403D /* Debug */,
+				C1B2675A1E4C053E00D8403D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1B2675B1E4C053E00D8403D /* Build configuration list for PBXNativeTarget "一个app嵌套多个tabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B2675C1E4C053E00D8403D /* Debug */,
+				C1B2675D1E4C053E00D8403D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1B2675E1E4C053E00D8403D /* Build configuration list for PBXNativeTarget "一个app嵌套多个tabbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B2675F1E4C053E00D8403D /* Debug */,
+				C1B267601E4C053E00D8403D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B267231E4C053E00D8403D /* Project object */;
+}
